@@ -1,0 +1,33 @@
+1-topshiriq
+
+Define Python's main data structures and give an example of each. - N
+
+    1. List misol: array= [1, 1.0, "Hello", [1,2,3] List uziga turli datatype larni oladi va o'larni indexlar
+        bo'yicha qo'shadi va o'chiradi
+    2. Set misol: set = {1,2,3, "hi"} Set da har bir element unic uzgarmas va betartib bo'ladi.
+    3. Dictionaries misol: dic = {
+                'olma': 10_000
+                'gilos': 30_000
+                'anor': 20_000
+            }                       dic key va value dan iborat bo'lib elementalrga key orqali murajan qilish mumkin.
+    4. Tuples misol: tuple = (1,2,3) tuple constant ugarmas bo'ladi
+    5.String misol: "Hello World" string characktir larning yig'indisi
+
+
+2-topshiriq
+Explain the difference between AND, OR NOT - N
+    AND ga misol: 3 > 2 and 0 > 1 bu holatda False qataradi
+    OR ga misol: 3 > 2 or 0 > 1 bu holatda True qataradi
+    NOT ga misol: a = 3  2 in not a bu holatda True qataradi
+
+3-topshiriq
+What is Git, and how is it used in software development? Briefly describe common Git commands. - N
+    Git version larni boshqarish, jamoviy ishlash history larni ko'zatish projectda bir-biriga xalaqit
+    qilmasdan feture larni yuklashda yordam beradi.
+
+
+4-topshiriq
+What is the purpose of the __init__ method in Python classes? Provide an example. - NA
+
+    __init__ konstruktor vazifasini bajaradi, dunder methodlarga kiradi.
+    __init__ yordamida obyektning atributlarini boshlang'ich qiymatlar bilan sozlashingiz mumkin.
