@@ -15,10 +15,11 @@ def get_products():
 
     with open(file_name, 'w', encoding="utf-8") as file:
         for idx, title in enumerate(product_titles, 1):
+	    product_title = title.find('p', class_='news-title')
 
             text = title.get_text(strip=True)
             file.write(f"Product {idx}:\n")
-            file.write(f"  Title: {text}\n")
+            file.write(f"  Title: {product_title}\n")
             file.write("\n")
 
     print(f"Ma'lumotlar '{file_name}' fayliga yozildi.")
